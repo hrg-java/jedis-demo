@@ -15,7 +15,7 @@ public class JedisTest {
     void setUp() {
         // 连接
 //        jedis = new Jedis("r-2ze4ulc2psmev308vdpd.tairpena.rds.aliyuncs.com", 6379);
-//        jedis.auth("hrg", "Ogilvy007");
+//        jedis.auth("hrg", "*******");
         // 连接池
         jedis = JedisConnectionFactory.getJedis();
         jedis.select(0);
